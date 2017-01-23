@@ -41,7 +41,7 @@ for python in python_versions:
     if python == latest_python:
         dav_servers = ("radicale", "owncloud", "nextcloud", "baikal",
                        "davical")
-        rs_servers = ()
+        rs_servers = ("mysteryshack",)
     else:
         dav_servers = ("radicale",)
         rs_servers = ()
